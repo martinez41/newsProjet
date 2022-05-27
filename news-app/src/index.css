@@ -1,0 +1,59 @@
+:root {
+  --code-seconde: rgb(47,46,65);
+  --color-primary: rgb(249,168,38);
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+/* Style Login */
+#login{
+  background-color: var(--color-primary);
+  width: 60%;
+  color: #fff;
+}
+/* Style Signup */
+
+/* Style Home */
+#header{
+  background-color: var(--color-primary);
+  color:#fff,
+}
+
+@media only screen and (min-width: 1200px) {
+  /* Style Login */
+  #viewLogin{
+    margin-top: 10rem;
+  }
+  /* Style Signup */
+}
+@media  screen and (min-width: 992px) {
+  
+}
+@media only screen and (max-width: 768px) {
+  
+}
+@media only screen and (max-width: 600px) {
+  /* Style Login */
+  #login{
+    width: 100%;
+  }
+  /* Style Signup */
+  #viewImgSingup{
+    display: none;
+  }
+  #infoUser{
+    display: none;
+  }
+}
+
